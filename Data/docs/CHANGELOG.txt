@@ -1,0 +1,123 @@
+				CHANGELOG
+			
+		
+=> Ver 1:
+	[1.0] Sistema de imagenes por consola
+	      Ventana primitiva con botones para herramientas
+
+	[1.1] Nuevo formato de colores, color rojo y azul disponibles
+
+	[1.2] Nueva herramienta: goma
+
+	[1.3] Nueva funcion: color de goma
+
+	[1.4] Los colores ahora se extienden en 10
+	
+	[1.5] Se pueden crear colores nuevos segun patron RGB, con
+	      valores entre 0,255 para Rojo, Verde y Azul devolviendo
+	      en hexadecimal
+
+	[1.6] Correccion de errores varios
+
+	[1.7] Las ventanas no pueden ser redimensionadas
+
+	[1.8] Las ventanas por defecto se posicionan en el centro
+	      de la pantalla
+
+	[1.9] Funcion de nuevo archivo, guardar archivo y Salir
+	
+=> Ver 2:
+
+	[2.0] Nueva funcion de herramientas
+	
+	[2.1] Nuevo rediseño del menu
+
+	[2.2] Funcion insertar nueva, se puede crear una recta
+
+	[2.3] Nuevas funciones disponibles, crear rectangulo y circulo
+
+	[2.4] Nuevo color: color de fondo para figuras
+
+	[2.5] Correcion en sistema para crear trazos libres
+
+	[2.6] Nueva funcion: Licencia y Changelog
+
+	[2.7] Correcion de errores varios
+
+	[2.8] Rediseño de gui
+
+	[2.9] Introduccion a "grosor" de herramienta y primitivo formato
+	      de "estilo"
+
+=> Ver 3:
+	
+	[3.0] Formato de estilo actualizado, permite ingresar hasta 
+	      5 datos
+
+	[3.1] Nuevas funciones disponibles, crear arco y ingresar texto
+
+	[3.2] Eliminado funcion de comandos
+
+	[3.3] Correcion en error al crear nuevas ventanas
+
+	[3.4] Nueva funcion: crear poligono
+
+	[3.5] Nuevo sistema para mostrar mensajes a usuarios
+
+	[3.6] Nuevo formato para crear trazos libres, creados
+	      herramientas plumon grueso y plumon fino
+
+	[3.7] Nuevos menus, "insertar" y "herramientas"
+
+	[3.8] Optimizacion de variables, rediseño de GUI
+
+	[3.9] Rediseño sistema de ayuda
+
+=> Ver 4:
+	
+	[4.1] Elimiacion de "ingresar Comando"
+	
+	[4.2] Nueva funcion para restaurar estilo
+	
+	[4.3] Aumento en tamaño de la ventana
+
+	[4.4] Error al cerrar la ventana solucionado
+
+	[4.5] Nueva herramienta para insertar imagenes GIF
+
+	[4.6] Correcion de errores, modificado sistema de entorno
+	      de usuario
+
+	[4.7] Correcion del menu, mejor organizacion de comandos
+	
+	[4.8] Eliminacion de archivos, nuevo sistema de
+	      configuraciones via archivo .cnf (permite
+	      una serie de cambios, explicitados en Ayuda)
+
+	[4.9] Correccion de errores con el formato de comandos
+	      solucionado error al no encontrar el archivo
+	      
+	[4.9.1] El sistema crea un nuevo archivo de configuraciones
+		en caso de omision
+
+	[4.9.2] Nuevo sistema de errores, se maneja de mejor forma
+		un posible error de sistema para evitar el crash
+	
+	[4.9.5] El archivo de configuraciones es mas ligero, se
+		usan # para definir ayudas y tips
+
+	[4.9.7] Introduccion a mejorar errores en archivo de
+		configuraciones
+
+	[4.9.7.2] Desarrollo de un sistema de idiomas, con lang
+
+	[4.9.7.3] Nueva carpeta lang
+	
+	[4.9.8] Nuevo nombre a carpetas de sistema
+
+=> Ver 5:
+
+	[5.0] Nuevo sistema de idiomas
+
+
+

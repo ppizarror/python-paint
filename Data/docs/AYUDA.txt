@@ -1,0 +1,314 @@
+			     AYUDA DE PAINT
+
+Tabla de contenidos:
+
+1) Introducción
+2) Conceptos Básicos
+3) Herramientas
+4) Archivos e impresion
+5) Preguntas frecuentes
+6) Configuracion de Paint
+
+
+I ) Introducción
+
+Paint es un programa cencillo centrado en la creación de imágenes a base
+de herramientas de dibujo, creado totalmente en Python.
+
+El programa esta compuesto de una barra derecha de herramientas (con
+botones, información de estado, entre otros) y el "panel de dibujo"
+que es el cuadrado de la izquierda.
+
+Con una serie de herramientas se pueden crear dibujos, graficos, 
+objetos y demás los que, a posteriori pueden ser impresos.
+
+
+
+
+II ) Conceptos Básicos
+
+	- Herramientas: Son todas aquellas utilidades con las que 
+          se puede operar un dibujo.
+
+	- Insertar Objeto: Menu donde se puede ingresar objetos
+	  (figuras geometricas, imagenes en formato GIF) al dibujo
+
+	- Pantalla: Corresponde al dibujo en si.
+
+	- Colores: Son los colores del programa, estos tienen
+	  la forma #RR,GG,BB con RR, GG,BB números decimales entre
+	  [0,255] escritos en forma hexadecimal.
+
+
+
+
+III) Herramientas:
+
+	- Goma de Borrar: Permite borrar la pantalla (usando el
+	  color "goma") por defecto de color blanco.
+
+	- Lapiz: Permite crear finos trazos en la pantalla.
+
+	- Plumón Grueso: Permite crear gruesos trazos en la pantalla,
+	  de forma mas solida que un lapiz. El patron es rectangular.
+
+	- Plumón Fijo: Analogo al plumón Grueso pero mas delgado,
+	  patron circular.
+
+	- Insertar objeto: Permite crear un nuevo objeto:
+
+		  i) Arco: Crea un arco de circunferencia entre dos 
+		     puntos de la pantalla (ingresados previamente) de
+		     largo definido.
+
+		 ii) Cuadrado: Crea un cuadrado entre dos puntos de la
+		     pantalla previamente elegidos.
+
+		iii) Imagen: Inserta una imagen en formato GIF a la
+		     pantalla, pulsa luego ESC para terminar de ubicar
+		     la imagen.
+
+		 iv) Ovalo: Crea un ovalo entre dos puntos de la
+  		     pantalla previamente elegidos. 
+
+		  v) Poligono: Crea un poligono de N lados previamente
+		     definidos en puntos de la pantalla previamente
+		     elegidos.
+
+                 vi) Recta: Crea una recta entre dos puntos de la
+		     pantalla previamente elegidos.
+
+		vii) Texto: Inserta un texto en la pantalla, en un punto
+		     previamente elegido.
+
+
+	- Colores:
+
+		  i) Color principal: Color con que se crean todos
+		     los trazos.
+
+		 ii) Color de fondo: Color con que se rellenan todas los
+	             objetos creados.
+
+		iii) Color de goma: COlor con el que la goma pinta
+		     sobre la pantalla.
+
+
+	- Grosor: Define el grosor de la herramienta
+
+	- Estilo: Define un estilo de dibujo para todas las herramientas
+		  manuales (lapiz, plumones).
+		
+		i) X - [X>0]: Numero (h) al que se le suma a un punto
+		   en la posicion x quedando de la forma (xo,yo) 
+                   R (xf+h,yf) siendo R una herramienta cualquiera.
+
+		ii) Y - [Y>0]: Numero (h) al que se le suma a un punto
+		    en la posicion y quedando de la forma (xo,yo) R
+		    (xf,yf+h) siendo R una herramienta cualquiera.
+
+		iii) DASH: Patron de dibujo, corresponde a una serie de
+ 		     numeros mayores que 1, separados por coma.
+
+		iv) SMOOTH: Corresponde a la estilizacion de los trazos,
+		    si 0 entonces los trazos son toscos, si 1 los trazos
+		    son mas prolijos. Por defecto, SMOOTH=0
+
+		v) JOINSTYLE: Corresponde a la forma en la que dos 
+                   puntos se unen, tiene 3 opciones: miter, bevel
+		   y round
+
+
+
+
+IV) Archivos e impresion
+
+Los archivos de dibujo se guardan en un formato .ps (PostScript)
+los que pueden ser transformados a cualquier formato mediante
+conversores externos a Paint. Algunos de ellos son:
+
+	- http://www.converthub.com/pstopng.php
+	- http://www.zamzar.com/convert/png-to-ps/
+
+Estos archivos se ubican en la carpeta: Data/Saves
+
+
+
+
+V) Preguntas frecuentes
+
+1 ) Puedo obtener el código fuente del programa?
+
+	Claro, sólo mandame un correo [En español] con tu peticion
+
+2 ) Este programa está bajo GNU?
+
+	Si
+
+3 ) Puedo abir un archivo guardado con Paint?
+
+	No
+
+4 ) Que extensiones son validas para poder abrir archivos de
+    imagen?
+
+	Solo GIF (extension.gif)
+
+
+
+
+VI) Configuracion de Paint
+
+Paint incluye, desde su version [4.8] (vea ayuda/changelog) un
+sistema de configuraciones basado en la obtencion de informacion
+de un archivo de configuraciones
+
+Dicho archivo se ubica en la carpeta principal de programa, el
+archivo lleva por nombre //Paint.cnf.
+
+Estructura:
+
+	#Configuracion de Paint
+	#No configure nada si no sabe lo que hace
+	#Cualquier error en este archivo puede traer
+	#consecuencias
+	#Fatales a la hora de ejecutar el programa
+	
+	#Tamano del programa en ancho y largo
+	PROGRAMSIZE = X,Y
+
+	#Color de la herramienta por defecto
+	DEFAULT_COLOR = COLOR
+
+	#Color de la goma por defecto
+	DEFAULT_GOMA = COLOR
+
+	#Color del fondo por defecto
+	DEFAULT_FONDO = COLOR
+
+	#Estilo de la herramienta por defecto
+	DEFAULT_ESTILO_HERRAMIENTA = X,Y,P{A,B},Z,TYPE
+
+	#Grosor de la herramienta por defecto
+	DEFAULT_GROSOR_HERRAMIENTA = G
+
+	#Herramienta por defecto
+	DEFAULT_HERRAMIENTA = H
+
+	#Idioma por defecto
+	DEFAULT_LANGUAGE = LANG
+
+
+1) PROGRAMSIZE:
+
+	Es el tamaño en pixeles del programa, X, Y
+	representan el largo y el ancho. Se recomiendan
+	resoluciones mayores a 800x500 (800 de ancho, 
+	500 de largo).
+
+	Los parametros X,Y pueden ser solo ENTEROS mayores a 0
+
+2) DEFAULT_COLOR:
+
+	Es el color de la herramienta (sea lapiz, plumon, etc)
+	por defecto (el primer color que carga),dicho color
+	debe escribirse en HEXADECIMAL (HEX). Puede revisar
+	miles de colores en forma gratuita desde:
+	
+	http://www.colorschemer.com/online.html
+
+3) DEFAULT_GOMA:
+
+	Es el color por defecto de la goma, el color debe
+	escribirse en HEXADECIMAL (HEX). Puede revisar
+	miles de colores en forma gratuita desde:
+	
+	http://www.colorschemer.com/online.html
+
+4) DEFAULT_FONDO:
+
+	Es el color por defecto del fondo (lienzo, pantalla).
+	Dicho color debe escribirse en HEXADECIMAL (HEX).
+	Puede revisar miles de colores en forma gratuita
+	desde:
+	
+	http://www.colorschemer.com/online.html
+
+
+5) DEFAULT_ESTILO_HERRAMIENTA:
+	
+	Es un conjunto de parametros con el que se
+	establece una herramienta, dicho conjunto se
+	establece asi:
+	
+	X,Y,P{A,B},Z,TYPE
+
+	X: Coordenada horizontal que se suma al puntero de
+	   la herramienta. [Numero entero, mayor a cero]
+
+	Y: Coordenada vertical que se suma al puntero de
+	   la herramienta. [Numero entero, mayor a cero]
+
+	P: Dash del puntero, establece el redondeado y
+	   la forma en como se unen los puntos, su forma
+	   es como una matriz de elementos de la forma
+	   [A,B] Con (A) la coordenada horizontal, (B) la
+	   coordenada vertical; (A),(B) numeros ENTEROS
+	   mayores a 0 y menores a 255 (numeros mayores que
+	   255 seran considerados como 1
+
+	Z: Numero entero, Z define si los bordes son
+	   redondeados o no. 0 para Falso, 1 para Verdadero
+	   (entiendase como un parametro BOOLEANO). Z puede
+           ser solo 0 o 1 (numeros mayores a ese intervalo
+	   arrojaran un error terminal)
+
+	TYPE: Tipo de puntero, valores entre "miter", "round"
+	      "bevel". el parametro debe escribirse
+	      entre comillas y en minuscula.
+
+	Los datos deben escribirse de la forma siguiente =
+
+	DEFAULT_ESTILO_HERRAMIENTA = X,Y,[A,B],Z,TYPE
+
+	los "corchetes" son de vital importancia, si se omiten
+	el programa se caerá. Ejemplo:
+
+	DEFAULT_ESTILO_HERRAMIENTA = 5,5,[1,1],0,"miter"
+
+6) DEFAULT_GROSOR_HERRAMIENTA
+
+	Es el grosor de la herramienta por defecto, G debe ser
+	un numero ENTERO mayor estricto que 0, por defecto el 
+	grosor es 10
+
+7) DEFAULT_HERRAMIENTA
+
+	Es la herramienta que se carga por defecto, H solo puede
+	ser:
+
+	1 = Lapiz
+	2 = Goma
+	3 = Plumon Grueso
+	4 = Plumon Fino
+
+	Valores de H que no sean los mencionados anteriormente
+	haran que el programa colapse y se caiga
+
+8) DEFAULT_LANGUAJE
+
+	Es el idioma por defecto, LANG solo puede ser:
+
+	EN : Ingles
+	ES : Español
+
+El archivo de configuraciones se genererará en caso de que se
+haya eliminado. Puede agregar tantos comentarios como se le
+de la gana, recuerde que los comentarios son antecedidos
+SIEMPRE por un #, ejemplo:
+
+	#Soy un comentario
+	#Paint
+
+
+
