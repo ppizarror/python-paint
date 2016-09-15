@@ -1,0 +1,6 @@
+{
+  "name": "Python-paint",
+  "tagline": "Un sencillo Paint hecho en python.",
+  "body": "# Paint\r\nUn sencillo Paint hecho en python.\r\n\r\n<p align=\"center\">\r\n<img src=\"https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/python-paint/captura1.PNG\" width=\"80%px\">\r\n</p>\r\n\r\n<p align=\"center\">\r\n<img src=\"https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/python-paint/captura2.PNG\" width=\"80%px\">\r\n</p>\r\n\r\n## Autor\r\nPablo Pizarro, 2015.\r\n\r\nSi tienes alguna sugerencia envíame un correo a: [pablo.pizarro@ing.uchile.cl](mailto:pablo.pizarro@ing.uchile.cl), o sencillamente ten la libertad de enviar un _pull request_.\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
