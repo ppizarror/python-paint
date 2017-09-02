@@ -1,16 +1,18 @@
 # Paint
+[![@ppizarror](http://ppizarror.com/resources/images/autor.svg)](http://ppizarror.com)
+[![Licencia GPL](http://ppizarror.com/resources/images/licenciagpl3.svg)](https://www.gnu.org/licenses/)
+[![Python](http://ppizarror.com/resources/images/python27.svg)](https://www.python.org/downloads/)
+
 Un sencillo Paint hecho en python.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/python-paint/captura1.PNG" width="80%px">
+<img src="http://ppizarror.com/resources/images/python-paint/captura1.PNG" width="70%" >
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/python-paint/captura2.PNG" width="80%px">
+<img src="http://ppizarror.com/resources/images/python-paint/captura2.PNG" width="70%" >
 </p>
 
 ## Autor
-Pablo Pizarro, 2015.
-
-Si tienes alguna sugerencia envíame un correo a: [pablo.pizarro@ing.uchile.cl](mailto:pablo.pizarro@ing.uchile.cl), o sencillamente ten la libertad de enviar un _pull request_.
+<a href="http://ppizarror.com">Pablo Pizarro R.</a> | 2015.
 
