@@ -1,0 +1,42 @@
+{
+    "PROJECT": {
+        "NAME": "Python-Paint",
+        "ICON": {
+            "IMAGE": "http://ppizarror.com/resources/other/python.png",
+            "ALT": "Python-Paint",
+            "WIDTH": 200,
+            "HEIGHT": 200
+        },
+        "URL": "http://ppizarror.com/python-paint/",
+        "URL_TITLE": "Python-Paint"
+    },
+    "AUTHOR": {
+        "NAME": "Pablo Pizarro R.",
+        "URL": "http://ppizarror.com",
+        "ALT": "ppizarror",
+        "DATE": "2015",
+        "SECTION": {
+            "TITLE": "Autor",
+            "SHOW": true
+        }
+    },
+    "DESCRIPTION": "Un sencillo Paint hecho en python",
+    "BADGES": {
+        "0": {
+            "IMAGE": "http://ppizarror.com/badges/autor.svg",
+            "HREF": "http://ppizarror.com",
+            "ALT": "@ppizarror"
+        },
+        "1": {
+            "IMAGE": "http://ppizarror.com/badges/licenciagpl3.svg",
+            "HREF": "https://www.gnu.org/licenses/",
+            "ALT": "Licencia GPL v3"
+        },
+		"2": {
+		  "IMAGE": "http://ppizarror.com/badges/python27.svg",
+		  "HREF": "https://www.python.org/downloads/",
+		  "ALT": "Python 2.7"
+		}
+    },
+    "CONTENT": "readme.content.md"
+}
