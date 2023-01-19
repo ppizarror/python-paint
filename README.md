@@ -20,6 +20,6 @@
 
 Este proyecto está licenciado bajo GPLv3 [https://www.gnu.org/licenses/]
 
-
 ## Autor
-<a href="https://ppizarror.com" title="ppizarror">Pablo Pizarro R.</a> | 2015
+
+[Pablo Pizarro R.](https://ppizarror.com) | 2015
