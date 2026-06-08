@@ -1,9 +1,9 @@
 <p align="center">
-<img src="https://res.ppizarror.com/images/python-paint/captura1.PNG" width="70%" >
+<img src="https://raw.githubusercontent.com/ppizarror/python-paint/master/.github/images/captura1.PNG" width="70%" >
 </p>
 
 <p align="center">
-<img src="https://res.ppizarror.com/images/python-paint/captura2.PNG" width="70%" >
+<img src="https://raw.githubusercontent.com/ppizarror/python-paint/master/.github/images/captura2.PNG" width="70%" >
 </p>
 
 ## Licencia

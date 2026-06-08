@@ -2,7 +2,7 @@
     "PROJECT": {
         "NAME": "Python-Paint",
         "ICON": {
-            "IMAGE": "https://res.ppizarror.com/other/python.png",
+            "IMAGE": "",
             "ALT": "Python-Paint",
             "WIDTH": 200,
             "HEIGHT": 200
@@ -23,17 +23,17 @@
     "DESCRIPTION": "Un sencillo Paint hecho en python",
     "BADGES": {
         "0": {
-            "IMAGE": "https://res.ppizarror.com/badges/autor.svg",
+            "IMAGE": "https://img.shields.io/badge/Autor-Pablo%20Pizarro%20R.-9f9f9f",
             "HREF": "https://ppizarror.com",
             "ALT": "@ppizarror"
         },
         "1": {
-            "IMAGE": "https://res.ppizarror.com/badges/licenciagpl3.svg",
+            "IMAGE": "https://img.shields.io/badge/Licencia-GPL--3.0-007ec6",
             "HREF": "https://www.gnu.org/licenses/",
             "ALT": "Licencia GPL v3"
         },
 		"2": {
-		  "IMAGE": "https://res.ppizarror.com/badges/python27.svg",
+		  "IMAGE": "https://img.shields.io/badge/Python-2.7-e05d44",
 		  "HREF": "https://www.python.org/downloads/",
 		  "ALT": "Python 2.7"
 		}

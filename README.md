@@ -1,19 +1,17 @@
 <h1 align="center">
-  <img alt="Python-Paint" src="https://res.ppizarror.com/other/python.png" width="200px" height="200px" />
-  <br /><br />
   Python-Paint</h1>
 <p align="center">Un sencillo Paint hecho en python</p>
-<div align="center"><a href="https://ppizarror.com"><img alt="@ppizarror" src="https://res.ppizarror.com/badges/autor.svg" /></a>
-<a href="https://www.gnu.org/licenses/"><img alt="Licencia GPL v3" src="https://res.ppizarror.com/badges/licenciagpl3.svg" /></a>
-<a href="https://www.python.org/downloads/"><img alt="Python 2.7" src="https://res.ppizarror.com/badges/python27.svg" /></a>
+<div align="center"><a href="https://ppizarror.com"><img alt="@ppizarror" src="https://img.shields.io/badge/Autor-Pablo%20Pizarro%20R.-9f9f9f" /></a>
+<a href="https://www.gnu.org/licenses/"><img alt="Licencia GPL v3" src="https://img.shields.io/badge/Licencia-GPL--3.0-007ec6" /></a>
+<a href="https://www.python.org/downloads/"><img alt="Python 2.7" src="https://img.shields.io/badge/Python-2.7-e05d44" /></a>
 </div><br />
 
 <p align="center">
-<img src="https://res.ppizarror.com/images/python-paint/captura1.PNG" width="70%" >
+<img src="https://raw.githubusercontent.com/ppizarror/python-paint/master/.github/images/captura1.PNG" width="70%" >
 </p>
 
 <p align="center">
-<img src="https://res.ppizarror.com/images/python-paint/captura2.PNG" width="70%" >
+<img src="https://raw.githubusercontent.com/ppizarror/python-paint/master/.github/images/captura2.PNG" width="70%" >
 </p>
 
 ## Licencia
