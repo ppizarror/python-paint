@@ -1,5 +1,4 @@
-<h1 align="center">
-  Python-Paint</h1>
+<h1 align="center">Python-Paint</h1>
 <p align="center">Un sencillo Paint hecho en python</p>
 <div align="center"><a href="https://ppizarror.com"><img alt="@ppizarror" src="https://img.shields.io/badge/Autor-Pablo%20Pizarro%20R.-9f9f9f" /></a>
 <a href="https://www.gnu.org/licenses/"><img alt="Licencia GPL v3" src="https://img.shields.io/badge/Licencia-GPL--3.0-007ec6" /></a>
